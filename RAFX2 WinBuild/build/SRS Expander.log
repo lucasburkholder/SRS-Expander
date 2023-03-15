@@ -1,0 +1,28 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Rafx2PluginBase.cpp
+  Rafx2Plugin.cpp
+  RackAFXDLL.cpp
+  fxobjects.cpp
+  pluginparameter.cpp
+  plugingui.cpp
+  plugincore.cpp
+C:\Users\guita\Documents\RackAFXProjects\SRS Expander\PluginKernel\AudioEffect.h(223,14): error C2275: 'ImpulseConvolver': illegal use of this type as an expression
+C:\Users\guita\Documents\RackAFXProjects\SRS Expander\PluginObjects\fxobjects.h(2405): message : see declaration of 'ImpulseConvolver'
+C:\Users\guita\Documents\RackAFXProjects\SRS Expander\PluginKernel\AudioEffect.h(163): message : while compiling class template member function 'void AuxPort::Effect<float,float>::run(AuxPort::Frame<bufferType> &)'
+          with
+          [
+              bufferType=float
+          ]
+C:\Users\guita\Documents\RackAFXProjects\SRS Expander\PluginKernel\plugincore.cpp(192): message : see reference to function template instantiation 'void AuxPort::Effect<float,float>::run(AuxPort::Frame<bufferType> &)' being compiled
+          with
+          [
+              bufferType=float
+          ]
+C:\Users\guita\Documents\RackAFXProjects\SRS Expander\PluginKernel\plugincore.h(172): message : see reference to class template instantiation 'AuxPort::Effect<float,float>' being compiled
+  pluginbase.cpp
+  customviews.cpp
+  customcontrols.cpp
+  vstgui_win32.cpp
+C:\Users\guita\Documents\RackAFXProjects\vstgui4\vstgui\lib\cview.cpp(1010,24): warning C4996: 'VSTGUI::Animation::Animator::addAnimation': was declared deprecated
+  vstgui_uidescription_win32.cpp
+  Generating Code...
